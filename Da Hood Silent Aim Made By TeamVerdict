@@ -1,12 +1,3 @@
-local CoreGui = game:GetService("StarterGui")
-
-CoreGui:SetCore("SendNotification", {
-	Title = "Notification";
-	Text = "Verdict's Lock/Silent Aim Has Been Executed";
-	Duration = 6;
-})
-
-
 -- // Dependencies
 local Aiming = loadstring(game:HttpGet("https://github.com/DiscordBotCreator-dev/ez-da-hood-aimlock-ezz/blob/main/script.txt"))()
 Aiming.TeamCheck(false)
