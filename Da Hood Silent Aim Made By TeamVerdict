@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://github.com/DiscordBotCreator-dev/ez-da-hood-aimlock-ezz/blob/main/script.txt"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/DiscordBotCreator-dev/ez-da-hood-aimlock-ezz/main/script.txt"))()
 Aiming.TeamCheck(false)
 
 -- // Services
